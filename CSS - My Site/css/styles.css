@@ -1,5 +1,13 @@
 /*CSS code ie here*/
 
 body{
-    background-color: blue;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+div{
+    background-color: aquamarine;
 }

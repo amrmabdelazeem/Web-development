@@ -3,6 +3,7 @@
     background-color: grey;
     width: 300px;
     height: 300px;
+    left:200px;
 }
 
 
@@ -14,7 +15,7 @@ body{
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 200px;
+    left: 100px;
     top: 0;
 }
 
@@ -23,8 +24,8 @@ body{
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 100px;
     top: 0;
+    left: 100px;
 }
 
 .yellow{

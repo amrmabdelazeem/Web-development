@@ -1,8 +1,10 @@
 /*CSS code ie here*/
 
 body{
+    color: #40514e;
     margin: 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bottom-cloud{
@@ -11,6 +13,16 @@ body{
     bottom: 300px ;
 }
 
+.description{
+    line-height: 2;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 0 0 4px 0;
+    color: #EAF6F6;
+
+}
 .top-cloud{
     position: absolute;
     right: 300px;
@@ -18,31 +30,94 @@ body{
 }
 
 h1{
-    margin: 0;
-    font-family: 'Caveat Brush', cursive;}
+    font-size: 5.25rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Caveat Brush', cursive;
+    color: #66BFBF;
+}
 
 h2{
-    font-family: 'Caudex', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #66BFBF;
 }
 
-h3{
+h3, .footer-link, .flaticon{
     font-family: 'Merriweather', serif;
+    color: #11999E;
+    text-decoration: none;
 }
+
 
 .top-container{
-    background-color: aquamarine;
+    background-color: EAF6F6;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container{
-
-}
-
-.bottom-container{
-
-}
-
 .pro{
     text-decoration: underline;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.communicate-img{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 8px;
+    font-family: Arial;
+    font-size: 21px;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 11px 16px 10px 16px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .contact-me{
+    line-height: 2;
+  }
+
+
+  .bottom-container{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+}
+
+.footer-link{
+    margin-left: 30px;
+}
+
+.copy-right{
+    font-size: .8rem;
+}
+
+.flaticon{
+    font-size: 9px;
 }

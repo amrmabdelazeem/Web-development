@@ -8,7 +8,7 @@ body{
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 300px ;
 }
 
 .top-cloud{
@@ -19,6 +19,10 @@ body{
 
 h1{
     margin: 0;
+    font-family: 'Reenie Beanie', cursive;}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .top-container{
